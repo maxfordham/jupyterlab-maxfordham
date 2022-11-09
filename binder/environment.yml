@@ -1,4 +1,4 @@
-name: mfcode_jupyterhub_default
+name: jupyterlab-maxfordham
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy

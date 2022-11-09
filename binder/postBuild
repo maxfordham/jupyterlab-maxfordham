@@ -1,0 +1,2 @@
+mkdir -p /home/jovyan/.local/share/jupyter &&
+ln -s /home/jovyan/jobs/J4321/DigitalDesignTeam/CodeDev/mfcode_docs/book/docs/snippets /home/jovyan/.local/share/jupyter

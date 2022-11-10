@@ -18,7 +18,6 @@ dependencies:
   - ipyrun>=0.4.2
   - ipyautoui>=0.2.7
   - mfom==0.5.3
-  - xlsxtemplater
   - jupyter
   - notebook
   - jupyterlab
@@ -97,3 +96,4 @@ dependencies:
     - pandoc-docx-pagebreak
     - sphinx_github_changelog
     - lckr-jupyterlab-variableinspector
+    - git+https://github.com/jgunstone/xlsxtemplater.git@v0.1.6

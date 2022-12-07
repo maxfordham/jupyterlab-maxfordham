@@ -5,19 +5,20 @@ name: jupyterlab-maxfordham
 channels:
   - defaults
   - conda-forge
-  - http://10.10.30.125:8000
+  - plotly
 dependencies:
-  - python==3.9
+  - python
   - numpy
   - pandas
   - sympy
   - unyt
   - scipy
   - scikit-learn
+  - scikit-learn-intelex
   - scikit-image
-  - ipyrun>=0.4.2
-  - ipyautoui>=0.2.7
-  - mfom==0.5.3
+  - ipyrun
+  - ipyautoui
+  # - mfom==0.5.3 # how to do this?
   - jupyter
   - notebook
   - jupyterlab
@@ -27,26 +28,23 @@ dependencies:
   - jupyterlab-spellchecker
   - jupyterlab-favorites
   - jupyterlab-recents
-  - search-replace
-  - jlab-image-editor
   - jupytext
   - jupyterlab-lsp
   - python-lsp-server
-  - jupyterlab-spreadsheet-editor
-  - jupyterlab-theme-toggle
-  - jupyterlab-plotly
+  - jupyterlab-plotly-extension
   - jupyterlab-geojson
   - jupyterlab-mathjax3
   - jupyterlab-katex
-  - jupyterlab-search-replace 
-  - jupyterlab-code-formatter
-  - jupyterlab_commands
-  - black
-  - nb_black
   - ripgrep
+  - jupyterlab-search-replace 
+  - jupyterlab_commands
+  - jupyterlab_code_formatter
+  - black
+  - isort
+  - nb_black
   - ipympl
+  - jupyter-archive
   #- jupyterlab-unfold
-  #- jupyter-archive
   #- jupyterlab-cell-flash
   - theme-darcula
   - ipython
@@ -57,10 +55,11 @@ dependencies:
   - ipyvuetify
   - watchdog
   - plotly
+  - python-kaleido
+  - plotly-geo
   - vega
   - vegafusion-jupyter
   - vegafusion
-  - kaleido
   - matplotlib
   - palettable
   - altair
@@ -69,6 +68,7 @@ dependencies:
   - pillow
   - seaborn
   - voila
+  - pythreejs
   - line_profiler
   - memory_profiler
   - numexpr
@@ -90,6 +90,11 @@ dependencies:
   - jsonschema2md
   - pip
   - pip:
+    - jupyterlab_image_editor
+    - jupyterlab-spreadsheet-editor
+    - vl-convert-python
+    - ipyobservable
+    # - jupyterlab-topbar
     - traitlets-paths
     - seedir
     - devtools[pygments]

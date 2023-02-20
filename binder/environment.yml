@@ -20,6 +20,7 @@ dependencies:
   - ipyautoui
   # - mfom==0.5.3 # how to do this?
   - jupyter
+  - xeus-python
   - notebook
   - jupyterlab
   - jupyterlab-system-monitor
@@ -60,6 +61,7 @@ dependencies:
   - vega
   - vegafusion-jupyter
   - vegafusion
+  - vegafusion-python-embed
   - matplotlib
   - palettable
   - altair
@@ -97,6 +99,7 @@ dependencies:
     # - jupyterlab-topbar
     - traitlets-paths
     - seedir
+    - emoji
     - devtools[pygments]
     - pandoc-docx-pagebreak
     - sphinx_github_changelog

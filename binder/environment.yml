@@ -1,4 +1,4 @@
-name: jupyterlab-maxfordham
+name: jlab-mxf
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -51,9 +51,14 @@ dependencies:
   - ipython
   - docrepr 
   - jupyterlab_pygments
-  - ipywidgets 
-  - ipydatagrid 
+  - ipywidgets
+  - ipydatagrid
+  - ipycanvas
+  - ipycytoscape
+  - ipyfilechooser
+  - ipyvue
   - ipyvuetify
+  - reacton
   - watchdog
   - plotly
   - python-kaleido

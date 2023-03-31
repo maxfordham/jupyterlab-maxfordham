@@ -16,7 +16,7 @@ dependencies:
   - scipy
   - scikit-learn
   - scikit-learn-intelex
-M  - scikit-image
+  - scikit-image
   # - mfom==0.5.3 # how to do this?
   - jupyter
   - xeus-python

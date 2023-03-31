@@ -26,10 +26,10 @@ In the root you will find:
 ```
 
 - [WhirlwindTourOfPython](https://jakevdp.github.io/WhirlwindTourOfPython/)
-	- Author: [Jake Vanderplas](http://vanderplas.com/) - python Guru at Google 
+	- Author: [Jake Vanderplas](http://vanderplas.com/) - python Guru, creator of Altair and other python libs.
 	- The perfect introduction to pure-python 
 - [PythonDataScienceHandbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-	- Author: [Jake Vanderplas](http://vanderplas.com/) - python Guru at Google 
+	- Author: [Jake Vanderplas](http://vanderplas.com/) - python Guru, creator of Altair and other python libs.
 	- Introdocuces data-manipulation libraries numpy (mathematical arrays) and pandas 
 	(dataframes) and associated tools 
 - Visualisation

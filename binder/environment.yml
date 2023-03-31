@@ -108,6 +108,6 @@ dependencies:
     - pandoc-docx-pagebreak
     - sphinx_github_changelog
     - lckr-jupyterlab-variableinspector
-    - git+ssh://git@github.com/jgunstone/xlsxtemplater.git@v0.1.6
-    - git+ssh://git@github.com/maxfordham/ipyrun.git@v0.4.2
     - ipyautoui==0.4.8
+    - git+ssh://git@github.com/maxfordham/xlsxtemplater.git@v0.1.6
+    - git+ssh://git@github.com/maxfordham/ipyrun.git@v0.4.2

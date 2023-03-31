@@ -16,9 +16,7 @@ dependencies:
   - scipy
   - scikit-learn
   - scikit-learn-intelex
-  - scikit-image
-  - ipyrun
-  - ipyautoui
+M  - scikit-image
   # - mfom==0.5.3 # how to do this?
   - jupyter
   - xeus-python
@@ -111,3 +109,5 @@ dependencies:
     - sphinx_github_changelog
     - lckr-jupyterlab-variableinspector
     - git+ssh://git@github.com/jgunstone/xlsxtemplater.git@v0.1.6
+    - git+ssh://git@github.com/maxfordham/ipyrun.git@v0.4.2
+    - ipyautoui==0.4.8

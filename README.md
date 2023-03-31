@@ -1,4 +1,4 @@
-# mfcode jupyterhub default
+# jupyterlab-maxfordham
 
 This repo is the suggested default environment for Max Fordham's Engineers 
 to develop custom Notebooks and python Apps for Engineering Automation. 

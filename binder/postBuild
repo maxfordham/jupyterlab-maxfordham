@@ -1,5 +1,5 @@
-# mkdir -p /home/jovyan/.local/share/jupyter &&
-# ln -s /home/jovyan/jobs/J4321/DigitalDesignTeam/CodeDev/mfcode_docs/book/docs/snippets /home/jovyan/.local/share/jupyter
-
+#!/bin/bash
+mkdir -p /home/jovyan/.local/share/jupyter &&
+ln -s /home/jovyan/jobs/J4321/DigitalDesignTeam/CodeDev/mfcode_docs/book/docs/snippets /home/jovyan/.local/share/jupyter
 # jupyter serverextension enable --py jupyterlab_code_formatter --sys-prefix
 # ^ https://ryantam626.github.io/jupyterlab_code_formatter/jupyterhub.html

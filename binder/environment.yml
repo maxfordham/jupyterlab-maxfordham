@@ -110,4 +110,4 @@ dependencies:
     - lckr-jupyterlab-variableinspector
     - ipyautoui==0.4.8
     - git+https://github.com/maxfordham/xlsxtemplater.git@v0.1.6
-    - git+https://github.com/maxfordham/ipyrun.git@v0.4.2
+    - git+https://github.com/maxfordham/ipyrun.git@0.4.2

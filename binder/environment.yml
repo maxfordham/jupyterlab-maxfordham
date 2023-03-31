@@ -110,4 +110,4 @@ dependencies:
     - pandoc-docx-pagebreak
     - sphinx_github_changelog
     - lckr-jupyterlab-variableinspector
-    - git+https://github.com/jgunstone/xlsxtemplater.git@v0.1.6
+    - git+https://git@github.com/jgunstone/xlsxtemplater.git@v0.1.6

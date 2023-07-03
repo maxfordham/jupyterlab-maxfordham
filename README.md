@@ -1,5 +1,12 @@
 # jupyterlab-maxfordham
 
+
+```{warning}
+**WARNING**: Any files saved in the root directory or any folders that aren't the  
+`jobs` folder will be deleted between sessions. You **must** save files in the `jobs`
+folder.
+```
+
 This repo is the suggested default environment for Max Fordham's Engineers 
 to develop custom Notebooks and python Apps for Engineering Automation. 
 
@@ -38,6 +45,3 @@ In the root you will find:
 - ipyautoui-tutorials
 	- Author: mfcode
 	- Tutorial for making a simple user-input form.
-- ipyrun-tutorials
-	- Author: mfcode
-	- Tutorial for making a simple app. 

@@ -18,7 +18,6 @@ dependencies:
   - scikit-learn
   - scikit-learn-intelex
   - scikit-image
-  # - mfom==0.5.3 # how to do this?
   - jupyter
   - xeus-python
   - notebook
@@ -96,6 +95,7 @@ dependencies:
   - xmltodict
   - pillow
   - jsonschema2md
+  - quarto
   - pip
   - pip:
     - jupyterlab_image_editor
@@ -111,6 +111,8 @@ dependencies:
     - pandoc-docx-pagebreak
     - sphinx_github_changelog
     - lckr-jupyterlab-variableinspector
-    - ipyautoui==0.4.8
+    - ipyautoui >=0.7,<0.8
+    - ipyrun >=0.6,<0.7
     - git+https://github.com/maxfordham/xlsxtemplater.git@v0.1.6
-    - git+https://github.com/maxfordham/ipyrun.git@0.4.2
+    - git+https://git@github.com/maxfordham/document-issue.git@0.3.3#subdirectory=packages/document-issue
+    - git+https://git@github.com/maxfordham/document-issue.git@0.3.3#subdirectory=packages/document-issue-io

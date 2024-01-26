@@ -122,6 +122,6 @@ dependencies:
     - dhnx
     - ipyautoui >=0.7,<0.8
     - ipyrun >=0.6,<0.7
-    - git+https://github.com/maxfordham/xlsxtemplater.git@v0.1.6
+    - git+https://git@github.com/maxfordham/xlsxtemplater.git@v0.1.8
     - git+https://git@github.com/maxfordham/document-issue.git@0.3.3#subdirectory=packages/document-issue
     - git+https://git@github.com/maxfordham/document-issue.git@0.3.3#subdirectory=packages/document-issue-io

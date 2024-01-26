@@ -3,7 +3,7 @@
 
 ```{warning}
 **WARNING**: Any files saved in the root directory or any folders that aren't the  
-`jobs` folder will be deleted between sessions. You **must** save files in the `jobs`
+`work` folder will be deleted between sessions. You **must** save files in the `work`
 folder.
 ```
 
@@ -25,7 +25,6 @@ In the root you will find:
 ```
 .
 ├── ipyautoui-tutorials
-├── ipyrun-tutorials
 ├── PythonDataScienceHandbook
 ├── Visualisation
 └── WhirlwindTourOfPython

@@ -101,6 +101,7 @@ dependencies:
   - fluids
   - ht
   - thermo
+  - cmap
   - pip
   - pip:
     - jupyterlab_image_editor

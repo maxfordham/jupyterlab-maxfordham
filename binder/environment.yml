@@ -97,12 +97,12 @@ dependencies:
   - xmltodict
   - pillow
   - jsonschema2md
-  - quarto
+  - quarto<1.7
   - fluids
   - ht
   - thermo
   - cmap
-  - pip
+  - pip>=23,<24
   - pip:
     - jupyterlab_image_editor
     - jupyterlab-spreadsheet-editor

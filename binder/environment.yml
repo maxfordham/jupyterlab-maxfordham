@@ -7,7 +7,7 @@ channels:
   - conda-forge
   - plotly
 dependencies:
-  - python>=3.11,<3.12
+  - python>=3.10,<3.11
   - numpy
   - pandas
   - polars

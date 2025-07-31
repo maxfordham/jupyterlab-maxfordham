@@ -1,0 +1,12 @@
+#!/bin/bash
+quarto install tinytex
+export PATH="$HOME/.TinyTeX/bin/x86_64-linux:$PATH"
+tlmgr update --self
+tlmgr install carlito
+tlmgr install ctable
+tlmgr install fontawesome
+tlmgr install tocloft
+tlmgr install glossaries
+tlmgr install titleref
+tlmgr install stackengine
+tlmgr install anyfontsize

@@ -1,0 +1,10 @@
+#!/bin/bash
+export MFDB_USER=readOnly
+export MFDB_PASSWORD=readonly
+export MFDB_HOST=mfdb.maxfordham.com
+export MFDB_DATABASE=mf_jobs
+export ACCENT_USER=readOnly
+export ACCENT_PASSWORD=readonly
+export ACCENT_HOST=accent.maxfordham.com
+export ACCENT_DATABASE=mfllp
+exec "$@"

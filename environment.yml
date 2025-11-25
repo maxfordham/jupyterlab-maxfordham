@@ -62,6 +62,8 @@ dependencies:
   - vega_datasets
   - pillow
   - seaborn
+  - matplotlib
+  - pygfunction
   - voila
   - openpyxl
   - xlsxwriter

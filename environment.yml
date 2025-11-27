@@ -83,7 +83,6 @@ dependencies:
     - ./site-packages/aecreference-0.25.0rc7.tar.gz
     - ./site-packages/pyrulefilter-0.25.0rc7.tar.gz
     - ./site-packages/mfdb-0.25.0rc7.tar.gz
-    - ./site-packages/netzero_metrics-0.25.0rc7.tar.gz
     - jupyterlab-quarto
     - seedir
     - emoji

@@ -76,12 +76,12 @@ dependencies:
   - cmap
   - pip>=23,<24
   - pip:
-    - ./site-packages/aecschedule-0.3.4rc1.tar.gz
-    - ./site-packages/aectemplater_client-0.3.4rc1.tar.gz
-    - ./site-packages/aectemplater_schemas-0.3.4rc1.tar.gz
-    - ./site-packages/aectemplater_ui-0.3.4rc1.tar.gz
-    - ./site-packages/aecreference-0.3.4rc1.tar.gz
-    - ./site-packages/mfdb-0.3.4rc1.tar.gz
+    - ./site-packages/aecschedule-0.3.4.tar.gz
+    - ./site-packages/aectemplater_client-0.3.4.tar.gz
+    - ./site-packages/aectemplater_schemas-0.3.4.tar.gz
+    - ./site-packages/aectemplater_ui-0.3.4.tar.gz
+    - ./site-packages/aecreference-0.3.4.tar.gz
+    - ./site-packages/mfdb-0.3.4.tar.gz
     - jupyterlab-quarto
     - seedir
     - emoji

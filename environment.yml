@@ -76,18 +76,17 @@ dependencies:
   - cmap
   - pip>=23,<24
   - pip:
-    - ./site-packages/aecschedule-0.25.0rc7.tar.gz
-    - ./site-packages/aectemplater_client-0.25.0rc7.tar.gz
-    - ./site-packages/aectemplater_schemas-0.25.0rc7.tar.gz
-    - ./site-packages/aectemplater_ui-0.25.0rc7.tar.gz
-    - ./site-packages/aecreference-0.25.0rc7.tar.gz
-    - ./site-packages/pyrulefilter-0.25.0rc7.tar.gz
-    - ./site-packages/mfdb-0.25.0rc7.tar.gz
+    - ./site-packages/aecschedule-0.3.4rc1.tar.gz
+    - ./site-packages/aectemplater_client-0.3.4rc1.tar.gz
+    - ./site-packages/aectemplater_schemas-0.3.4rc1.tar.gz
+    - ./site-packages/aectemplater_ui-0.3.4rc1.tar.gz
+    - ./site-packages/aecreference-0.3.4rc1.tar.gz
+    - ./site-packages/mfdb-0.3.4rc1.tar.gz
     - jupyterlab-quarto
     - seedir
     - emoji
     - mosaic-widget
-    - ipyautoui >=0.8,<0.9
+    - ipyautoui >=0.9.0,<0.10
     - ipyrun >=0.6,<0.7
     - xlsxdatagrid >=0.3.3,<0.4
     - git+https://git@github.com/maxfordham/document-issue.git@0.8.4#subdirectory=packages/document-issue
